@@ -1,0 +1,41 @@
+.div-container {
+  background-color: #000;
+  color: white;
+  list-style: none;
+  font-size: 25px;
+  text-align: right;
+  font-family: "Georgia", serif;
+  font-weight: 500;
+
+  padding-right: 20%;
+  width: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  width: 100%;
+
+  /* max-width: 3500px; */
+}
+.brand_ul {
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  display: inline-block;
+  animation: scroll 30s linear infinite;
+  width: max-content;
+  list-style-type: none;
+  gap: 30px;
+  font-size: 40px;
+  overflow: hidden;
+}
+.slider-slide {
+  display: inline-block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

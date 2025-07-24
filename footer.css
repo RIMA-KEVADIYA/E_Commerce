@@ -1,0 +1,64 @@
+.Footer-Main-Logo {
+  font-weight: 900;
+  font-size: 40px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: rgb(241, 239, 239);
+}
+.footer {
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(230, 225, 225);
+}
+.footer p {
+  line-height: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-column li {
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.footer-column ul {
+  padding-top: 10px;
+}
+
+.payment-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 90px 0px 110px;
+}
+
+.payment img {
+  border-radius: 20px;
+}
+.payment-methods button {
+  border: none;
+}
+.payment-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.payment:hover {
+  transform: scale(1.2);
+}
