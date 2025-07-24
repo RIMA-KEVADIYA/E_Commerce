@@ -42,6 +42,7 @@ body {
   }
   .navbar {
     padding-left: 20px;
+    justify-content: space-between !important;
   }
 }
 
@@ -70,7 +71,7 @@ body {
   }
   .product-grid1 {
     overflow-x: hidden;
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(2, 1fr);
     width: auto;
   }
@@ -144,6 +145,135 @@ body {
     width: 400px;
     padding: 20px 0px 0px 150px !important;
     font-size: 25px !important;
+    text-align: center;
+  }
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .navbar .nav-links li {
+    display: none;
+  }
+  .navbar #search {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between !important;
+  }
+  .MainContent {
+    height: auto;
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+  .MainContent1 {
+    width: 100%;
+    display: block;
+    margin-left: 150px;
+    /* margin-right: 35px; */
+  }
+  .MainContent2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .product-grid1 section {
+    width: auto;
+    gap: 60px;
+  }
+  body {
+    overflow: hidden !important;
+  }
+  .product-grid1 {
+    overflow-x: hidden;
+    display: grid !important;
+    grid-template-columns: repeat(3, 2fr) !important;
+    width: auto;
+  }
+  #product-grid {
+    overflow-x: hidden !important;
+    margin-left: 50px;
+    padding-left: 0px;
+  }
+  .OurCustomer {
+    margin-left: -50px !important;
+  }
+  .arrow {
+    display: block;
+    gap: 40px;
+    margin-right: 50px;
+  }
+  .arrow #left {
+    font-size: 30px;
+  }
+  .arrow #right {
+    font-size: 30px;
+  }
+  .pro1 {
+    margin-left: 50px;
+    height: max-content;
+    display: block;
+    grid-template-columns: auto auto !important;
+    flex-direction: column;
+  }
+  .cloths image {
+    width: 250px;
+  }
+  .custome {
+    overflow-x: hidden;
+    width: 100px;
+  }
+  .cloths {
+    width: 250px;
+  }
+  .pro1 .product-name,
+  .rating,
+  .rate {
+    font-size: 25px;
+  }
+  .pro2 .product-name,
+  .rating,
+  .rate {
+    font-size: 25px;
+  }
+  .pro2 {
+    margin-right: 25px;
+    width: 250px;
+    height: auto;
+    display: block;
+    grid-template-columns: auto auto;
+    flex-direction: column;
+  }
+  .UptoDateOffer section {
+    width: 100%;
+  }
+  .div-conta {
+    position: relative;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .div-cont {
+    width: 100%;
+    padding: 20px 0px 20px 0px !important;
+  }
+  .input-wrapper1 {
+    font-size: 20px !important;
+    padding: 20px !important;
+  }
+  .input-wrapper2 {
+    font-size: 20px !important;
+    padding: 20px !important;
+  }
+  .topic {
+    width: 100%;
+    padding-left: 180px !important;
+    font-size: 40px !important;
     text-align: center;
   }
   .footer-container {
